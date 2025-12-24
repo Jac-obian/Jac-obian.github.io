@@ -1,0 +1,16 @@
+/* 포스트 본문 영역만 반투명 박스 처리 */
+.post-article .content {
+  background: rgba(18, 18, 18, 0.828); /* 반투명 */
+  border: 1px solid rgb(143, 143, 143); /* borderline */
+  border-radius: 3px;
+
+  padding: 1.5rem 1.75rem;
+  margin-top: 1.25rem;
+
+  backdrop-filter: blur(4px); /* 선택: 배경 흐림 */
+}
+
+/* 본문 위/아래와 시각적 분리 */
+article .post-tail-wrapper {
+  margin-top: 2rem;
+}
